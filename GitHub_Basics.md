@@ -12,7 +12,7 @@ Github is a web service which implements the remote repository.So wecan save our
 
 ## Workflow of Git
 
-Git workfow consists of:
+Git workflow consists of:
 - Workspace(Working Directory)
 - Index (Stage)
 - Local Repository(HEAD)
@@ -76,11 +76,47 @@ Git workfow consists of:
    - Then open Git Bash on our PC.
    
    - On Git Bash Terminal change the directory using cd command wherever you want to save your cloned file.
-
+   Commands to change the directory to Desktop
+   ```
+   cd ~
+   cd ..
+   cd <PC USER>
+   cd Desktop
+    ```
    - On Git Bash Terminal write "git clone <URL which you copied>
-   
-   - Now cloning has been done and the file is saved on your PC.Now you can do whatever you want to do by using git commands.
-
+     To clone
+     ```
+     git clone https://github.com/your-username/repository.git
+     ```
+     To change the directory to the cloned repository
+     ```
+     cd repository
+     ```
+     To create a new branch named new-branch
+     ```
+     git branch alpha
+     ```
+     To switch to the newly created branch named new-branch
+     ```
+     git checkout new-branch
+     ```
+     To add file abc.txt 
+     ```
+     git add abc.txt 
+     ```
+     To save the changes to the file
+     ```
+     git commit -m "Initial Comment"
+     ```
+     To know about which branch you are working on and other details
+     ```
+     git status
+     ```
+     To push your files to Github
+     ```
+     git push --set-upstream origin new-branch
+   ```
+   - Now cloning and pushing has been done and the file is saved on your PC.
 
 - Forking
 
@@ -102,7 +138,7 @@ Git workfow consists of:
 
   Pull Request allows others to know about the changes one has pushed in the github repository.
 
-  A Pull Request is submitted when you’ve worked on some code from a particular branch and want to inform the others of the changes you have made.
+  A Pull Request is submitted when youâ€™ve worked on some code from a particular branch and want to inform the others of the changes you have made.
 
   So after forking a project we can pull request.
 
@@ -139,8 +175,4 @@ Git workfow consists of:
     - Click on Submit new issue.  
 
 
-
-
-
-
-===========================================================================================================================================================
+----------------------------------------------------------------------------------------------------------------------------------------
