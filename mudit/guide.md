@@ -2,7 +2,7 @@
 
 **GIT :**
 
-*Git is a ```distributed control version software``` i.e. it helps us to keep the record of the history in the form of remote and local repo(repository) so that we can access the history any time without any onstruction.*
+*Git is a ```distributed control version software``` i.e. it helps us to keep the record of the history in the form of remote and local repo(repository) so that we can access the history any time without any obstruction.Version control system means that it helps in  managing a project's source code. It helps in keeping track of changes made in a source code and repositories manages all the edits or changes. It is a open source tool and you can load the repositories in your local repository or in your local system as well.
 
 **GITHUB :**
 
