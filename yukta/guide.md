@@ -1,4 +1,4 @@
-#**Guide For Github**
+# Guide For Github
 
 ### How github works:
 GitHub is a file or code sharing service to collaborate with different people. 
@@ -49,6 +49,6 @@ Once we've created a pull request, we can push commits from our branch to add th
 ### Opening issues:
 To contributing to a project we may find an issue on which we would like to work on and which we think is suitable for our skill set. Many projects labels their issues and we can work on it. Issues can be raised by anyone. It can also be raised by us.
 
-When beginning work on an issue locally, the first thing we’ll need to do is to create a branch for that piece of work on which we'll work.Once we are on our new branch we can make changes to the code which address the issue. To resolve the issue we can made the required changes that address a particular issue, we need to commit that code to our branch. We can use the (git status) command to view the changes since our last commit. We then use the (git add) command to stage the changes for the next commit and then use the commit command with a message to specify what is committed through us in the file.
+When beginning work on an issue locally, the first thing weâ€™ll need to do is to create a branch for that piece of work on which we'll work.Once we are on our new branch we can make changes to the code which address the issue. To resolve the issue we can made the required changes that address a particular issue, we need to commit that code to our branch. We can use the (git status) command to view the changes since our last commit. We then use the (git add) command to stage the changes for the next commit and then use the commit command with a message to specify what is committed through us in the file.
 
 Now that we have made and committed out changes local to our development machine. Our final step is to push the changes to our fork of the repository up on GitHub. We can do that using the (git push) command. We need to specify the name of the remote that we want to push to and the name of the branch we want to push up.
