@@ -54,6 +54,20 @@ Git workflow consists of:
      - pull command takes the file directly from remote repository to workspace.
 
 
+## BRANCHES IN GIT
+A branch is an independent line of development.
+
+It means all the branches are independent of each other.
+
+Branches are like movable pòinters to the commits.
+
+The default branch is known as master branch.
+
+## Merge Conflict
+Merge conflict means if two people changed the same a in a same file or person A decides to  delete that line while person B decides to modify it, Git will not be able to recognize what to do a d what is correct.So Git will mark that file as having conflict.When this situation  occurs git stops before the merge commit so that it can be resolved.
+Note:Merge conflict occurs in a 3 way Merge
+
+
 
 
 
@@ -116,7 +130,8 @@ Git workflow consists of:
      ```
      git push --set-upstream origin new-branch
    ```
-   - Now cloning and pushing has been done and the file is saved on your PC.
+   
+       - Now cloning and pushing has been done and the file is saved on your PC.
 
 - Forking
 
