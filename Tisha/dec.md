@@ -1,5 +1,4 @@
 # About Git
-
 Git is a free and open source distributed version control(Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 For example:If you are a graphic or web designer and want to keep every version of an image or layout which you would most certainly want to, a Version Control System (VCS) is a very wise thing to use) system designed to handle everything from small to very large projects with speed and efficiency. 
 
@@ -70,8 +69,7 @@ Therefore,all the new files are first pushed to the staging area.
 ### Commit-
 This is the final stage, as this stage finally applies the new changes to the remote repository. So, a commit is a set of new files that are being added to a project as part of the modification. Each commit represents the changes made to project in the past, with the details about the time at which commit was made and the author of the code. 
 
-The simplest way to commit is to type 
-$ git commit
+The simplest way to commit is to type $ git commit
 So, finally when you make a commit, and it gets committed, then this simply means that you have successfully applied a certain modification to the code.
 
 ## Git Branching:
