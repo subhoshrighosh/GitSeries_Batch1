@@ -52,11 +52,11 @@ For opposite flow we have following commands:
 
 (a) Go to the account and click option NEW repository.<br>
 (b) We can give a repository name and make a README file<br>
-(c) Then in gitbash, enter the repository by writing cd repo_name.<br>
-(d) Then for initializing this repository, use command : git init.<br>
-(e) Make a file inside this repo and add this your repo using git add . command.<br>
-(f) Then for commiting it use command : git command -m "Message here".<br>
-(g) Then push it to the repository using command : git push -u repo_name master.<br>
+(c) Then in gitbash, enter the repository by writing **cd repo_name**.<br>
+(d) Then for initializing this repository, use command : **git init**.<br>
+(e) Make a file inside this repo and add this your repo using **git add . command**.<br>
+(f) Then for commiting it use command : **git command -m "Message here"**.<br>
+(g) Then push it to the repository using command : **git push -u repo_name master**.<br>
 
 
 ### Fork and Clone in Git
@@ -82,16 +82,16 @@ For cloning the repository, we need to use command line and provide the followin
 #### Making a new branch:
 
 Use command :
-git branch branch_name
+**git branch branch_name**
 
 To enter into a branch use command :
-git checkout branchname
+**git checkout branchname**
 
 To see list of all branches in your project use command :
-git branch -ls
+**git branch -ls**
 
 To delete a branch, use command :
-git branch -d branch_name
+**git branch -d branch_name**
 
 ### What are Pull requests??
 
@@ -102,13 +102,13 @@ git branch -d branch_name
 
 (a)Clone a repository<br>
 (b) Enter the cloned repository from your account.<br>
-(c) Make a directory using command mkdir.<br>
+(c) Make a directory using command **mkdir**.<br>
 (d)Enter the directory using command cd directory_name.<br>
-(e)Add some text files in this directory by either physically going to it in your system or by command : echo "Content" > fileName.txt<br>
-(f)Now using command : git add fileNme.txt , add the file.<br>
-(g)Commit the file: git commit -m "Message" <br>
-(h)Now push it to the repository using command : git push origin master.<br>
-  Here if we are doing this by making any other branch, We need to push it by first usng git pull command and then by using git push --set-upstream origin branch_name.<br>
+(e)Add some text files in this directory by either physically going to it in your system or by command : **echo "Content" > fileName.txt**<br>
+(f)Now using command : **git add fileNme.txt** , add the file.<br>
+(g)Commit the file: **git commit -m "Message"** <br>
+(h)Now push it to the repository using command : **git push origin master**.<br>
+  Here if we are doing this by making any other branch, We need to push it by first usng git pull command and then by using **git push --set-upstream origin branch_name.**<br>
 (i)Now go the repository and click Create pull request option.<br>
 (j)Provide a good name for PR and a good description as well, and then Click option Compare and then see the base and head repository.<br>
 (k)Click create pull request and your PR will be opened until and unless the head of the repository merges it.<br>
@@ -124,27 +124,27 @@ git branch -d branch_name
 
 #### Creating a merge conflict
 
-(a)Either make a git repository or enter into your git repository using cd command and initialize it using : git init.<br>
+(a)Either make a git repository or enter into your git repository using cd command and initialize it using : **git init.**<br>
 (b)Now make a text file names merge.txt and add content to it.
-  echo "Content" >> merge.txt<br>
-(c)Add this by using git add merge.txt<br>
-(d)Commit it by using git commit -am "Message"<br>
+  **echo "Content" >> merge.txt**<br>
+(c)Add this by using **git add merge.txt**<br>
+(d)Commit it by using **git commit -am "Message"**<br>
 (e)Now, one file name with content is made in the repository.<br>
-(f)Now make a new branch and enter into it using command " git checkout -b newbranch.<br>
-(g)Override the content in merge.txt file using command : echo "Content_2" >> merge.txt<br>
-(h)Now commit it using : git commit -am "Message"<br>
-(i)Now enter your master branch using : git checkout master<br>
-(j)Now write echo "Content to append" >> merge.txt<br>
+(f)Now make a new branch and enter into it using command " **git checkout -b newbranch.**<br>
+(g)Override the content in merge.txt file using command : **echo "Content_2" >> merge.txt**<br>
+(h)Now commit it using : **git commit -am "Message"**<br>
+(i)Now enter your master branch using : **git checkout master**<br>
+(j)Now write **echo "Content to append" >> merge.txt**<br>
 (k)commit it<br>
-(l)Now write :  git merge newbranch.<br>
+(l)Now write :  **git merge newbranch.**<br>
 
 
 *WE will see a conflict occuring. This is called a merge conflict when we are trtying to change content of the file in same line together and trying to commit.<br>*
 
 ### Viewing the merge conflict
 
-(a)Use command : git status to see the merge conflict.<br>
-(b)The  use cat erge,txt to see the conflict and its cause.<br>
+(a)Use command : **git status** to see the merge conflict.<br>
+(b)The  use **cat merge.txt** to see the conflict and its cause.<br>
 
 *We see many wierd signs like <<<<<<<, >>>>>>> and ========.*
 *These are called conflict dividers and we need to erase them to solve the merge conflict.<br>*
@@ -153,7 +153,7 @@ git branch -d branch_name
 
 (a) To solve the merge conflict, we need to open the text file called merge.txt.<br>
 (b) After entering the file, we need to delete all the conflict dividers<br>
-(c) After deletinh it, save the file and write command: git commit and then push it.<br>
+(c) After deleting it, save the file and write command: **git commit** and then push it.<br>
 
 Merge conflict is solved.<br>
 
