@@ -32,6 +32,7 @@ The files will be stored in local and remote repo so that we can access our proj
 * *```mkdir (name of directory)``` ---> it will create a directory of the name you mentioned.*
 * *```git status``` ---> Check the status of your repository. See which files are inside it, which changes still need to be committed, and  which branch of the repository you’re currently working on.*
 * *```clear``` ---> clear the screen*
+* *```cat file.txt``` ---> it shows the content present in the file.
 
 #### **OPENING FIRST REPOSITORY/REPO :-
 
@@ -155,8 +156,42 @@ A Pull Request is submitted when you’ve worked on some code from a particular 
 
 ## **MERGE CONFLICTS:-**
 
+*When we merge the branches, if in the file, more than one person has commited change in the perticular line of the file with different set of data and send pr (pull request) to the remote repo, this act will creates a **merge conflict**.   
+
 ### *CREATING MERGE CONFLICTS:-*
 
+*Steps taken to create a **merge conflict** :-*
+
+![merge conflict](https://user-images.githubusercontent.com/54271833/82997921-a5412c00-a024-11ea-8748-9bb78a695157.jpg)
+
+*I created directory of my name and then file using ```touch``` command i.e. merge.txt. Then wrote the content ```(using ECHO command)```, added the file and commited it.* 
+
+*After that created a branch named new_branch, and there i entered the content in the same file.*
+
+*Then i switched back to master branch and entered or appended the data and finally tried for merging the branch task4 using ```git merge new_branch command```,*
+
+*But **MERGE CONFLICT** popped up!!!* 
+
+### *RESOLVING MERGE CONFLICTS:-*
+
+![resolved](https://user-images.githubusercontent.com/54271833/82999650-f4885c00-a026-11ea-83fe-d30ca3561495.jpg)
+
+*Steps taken to resolve a **merge conflict** :-*
+
+*Once Conflict is popped up, now its essential for you to work on resolving the issue or conflict.
+You can use ```git status``` command to have brief information about the conflict and your file.*
+
+*So at first use command ```cat <filename.extenion>``` to check where the **conflict dividers** are.*
+
+*Now your next step is to open the file i.e. merge.txt in the windows (editor) and remove all the conflict dividers and save that file. After that add and commit your file,* 
+
+*Hence your merge conflict is **Resolved!***   
+
+
+
+> **HOPE THIS DATA WILL HELP YOU UNDERSTAND ABOUT GIT/GITHUB**
+> **THANKYOU!**
+  
 
 
 
