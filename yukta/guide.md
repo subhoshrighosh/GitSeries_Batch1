@@ -5,6 +5,17 @@ GitHub is a file or code sharing service to collaborate with different people.
 GitHub is a highly used software which is used for version control. It is helpful when more than just one person is working on a project.Github helps various users to build a centralized repository where everyone can upload, edit and manage the code files. 
 GitHub is a central repository and Git is a tool which allows you to create a local repository.Git is a version control tool that will allow you to perform all kinds of operations to fetch data from the central server or push data to it whereas GitHub is a core hosting platform for version control collaboration. GitHub allows you to host a central repository in a remote server.
 
+Other platforms similar to Github :
+
+Gitlab
+Bitbucket
+Phabricator
+Beanstalk
+Sourceforge
+
+**Git Bash**
+Git Bash is an application that adds an emulation layer on Microsoft Windows environments to use Git command-line experience. It is just like a package that installs some common bash utilities on a Windows operating system. It let us use all the Git features as well as most of the standard UNIX commands in a command-line interface on Windows.
+
 ***GitHub  Workflow:***
 
 **1. Workspace:**
@@ -37,6 +48,48 @@ A great way of using forks to propose changes is for bug fixes. Rather than logg
 Fork the repository. Make the fix. And then submit a pull request to the project owner.If the project owner likes your work, they might pull your fix into the original repository!
 
 
+### Git Branching:
+A branch is a lightweight movable pointer to one of these commits. The default branch name in Git is master . As you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
+
+Creating a new Branch:
+The $ git branch command lets you create, list, rename branches.
+
+Switching Branches:
+To switch to an existing branch, you run the git checkout command.
+
+To delete branch:
+Use Command $ git branch -d. The -d option will delete the branch only if it has already been pushed and merged with the remote branch. Use -D instead if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet.
+
+Basic Merging-
+It is a process of merging a new branch into master branch.
+
+Creating Merge Conflict-
+This code example executes a sequence of commands that accomplish the following.
+
+•Create a new directory named git-merge-test, change to that directory, and initialize it as a new Git repo.
+
+•Create a new text file merge.txt with some content in it.
+
+•Add merge.txt to the repo and commit it. Now, we have a new repo with one branch master and a file merge.txt with content in it.
+
+•Next, we will create a new branch to use as the conflicting merge.
+
+•Create and check out a new branch named new_branch_to_merge_later
+
+•Overwrite the content in merge.txt
+
+•Commit the new content
+
+•git merge new_branch_to_merge_later
+
+A conflict appears
+
+To resolve Conflict-
+•The most direct way to resolve a merge conflict is to edit the conflicted file.
+
+•Open the merge.txt file in your favorite editor. For our example lets simply remove all the conflict dividers. Once the file has been edited use git add merge.txt to stage the new merged content.
+
+To finalize the merge create a new commit Git will see that the conflict has been resolved and creates a new merge commit to finalize the merge.
 
 ### Making Pull Requests:
 Pull requests tell us others about changes we've pushed to a branch in a repository on GitHub. Once a pull request is opened, we can discuss and review the potential changes with collaborators and add follow-up commits before our changes are merged into the base branch.
@@ -52,3 +105,7 @@ To contributing to a project we may find an issue on which we would like to work
 When beginning work on an issue locally, the first thing we’ll need to do is to create a branch for that piece of work on which we'll work.Once we are on our new branch we can make changes to the code which address the issue. To resolve the issue we can made the required changes that address a particular issue, we need to commit that code to our branch. We can use the (git status) command to view the changes since our last commit. We then use the (git add) command to stage the changes for the next commit and then use the commit command with a message to specify what is committed through us in the file.
 
 Now that we have made and committed out changes local to our development machine. Our final step is to push the changes to our fork of the repository up on GitHub. We can do that using the (git push) command. We need to specify the name of the remote that we want to push to and the name of the branch we want to push up.
+
+
+**Steps for creating an issue-**
+1)On GitHub, navigate to the main page of the repository. 2)Under your repository name, click Issues. 3)Click New issue. 4)If there are multiple issue types, click Get started next to the type of issue you'd like to open. 5)Type a title and description for your issue. 6)If you're a project maintainer, you can assign the issue to someone, add it to a project board, associate it with a milestone, or apply a label. 7)When you're finished, click Submit new issue.
