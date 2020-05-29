@@ -8,6 +8,12 @@
 
 *GitHub is a ```website or web service``` which allows people to perform social coding which has version control on them i.e. Git*
 
+* *It prevents you from messing up your own code. If you use github, you don’t have to worry too much about accidentally deleting important stuff or breaking your entire app because you accidentally deleted a semicolon.*
+
+* *It lets others watch what you are doing to your app.*
+
+* *You and your friends can work on the same app together, without stepping on each other’s toes. Otherwise if you both write code onto the same file, whoever saved first will lose everything they wrote because whoever saved last overwrites the file. This doesn’t happen if you use git.*
+
 ###### NOTE: One dont need to know about both, one can eaily be oriented on GIT or GITHUB,and also one can work using both GIT and GITHUB too.
 
 *Git has a work-flow, i.e. **```add-->commit-->push-->pull```***
@@ -16,41 +22,146 @@
 3. Merge your other branch if you have created any with master if your newly created branch worked perfectly or else modify.
 The files will be stored in local and remote repo so that we can access our project anytime.
 
+### **COMMON COMMANDS**
+
+* *```ls``` ---> This will list all the files in the directories.*
+* *```git config``` --->  Short for “configure,” this is most useful when you’re setting up Git for the first time.*
+* *```git init``` ---> Initializes a new Git repository. Until you run this command inside a repository or directory, it’s just a regular folder. Only after you input this does it accept further Git commands.*
+* *```cd (name of directory)``` ---> it will take you to that directory.*
+* *```cd ..``` ---> it will take you out of that directory. *
+* *```mkdir (name of directory)``` ---> it will create a directory of the name you mentioned.*
+* *```git status``` ---> Check the status of your repository. See which files are inside it, which changes still need to be committed, and  which branch of the repository you’re currently working on.*
+* *```clear``` ---> clear the screen*
+
+#### **OPENING FIRST REPOSITORY/REPO :-
+
+> 1. Create a Github account, by using you e-mail account and signup
+
+> 2. Create a new repository -> To create a new repository, select New Repository from the + sign dropdown menu -> Enter a name for your repository
+
+> 3. download and install git from offical website if not already installed ->run gitbash.exe ->It will open a terminal in windows\mac\linux
+
+> 4. ```$ mkdir NAME ->$ cd NAME ->$ echo "#NAME" >> Readme.md``` --->This will create a directory at local with name "NAME", 
+whcih will have a text file "Readme.md" ->$ cat Reamde.md ->This will show the contents of the file ->To tell your computer that Demo is a directory managed by the Git program, enter: ->$ git init ->Then, to tell the Git program you care about this file and want to track any changes from this point forward, ->$ git add Readme.md
+
+> 5. Making a commit ->So far you've created a file and told Git about it, and now it's time to create a commit. Commit can be thought of as a milestone. Every time you accomplish some work, you can write a Git commit to store that version of your file, so you can go back later and see what it looked like at that point in time. Whenever you make a change to your file, you create a new version of that file, different from the previous one. ```git commit -m "commit"``` --->You just created a Git commit and included a message that says first commit.
+
+> 6. Connect your GitHub repo with your computer **git remote add origin https://github.com/<your_username>/NAME.git** ---> Now we have connected our local copy of the NAME repository to its remote counterpart on GitHub. Now that we have added the remote, we can push our code to GitHub. 
+
+**You can add more remote other than origin that which will be the topic of our discussion** 
+
+#### **CREATING REMOTE:-**
+
+*A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server. In contrast to a local repository, a remote typically does not provide a file tree of the project's current state. A universal name for remote is given as **origin**, but we can name it anything according to our needs.*
+
+*For creating remote, the command we use is :-
+``` git remote add (name_of_remote) remote_url```*
+
+*Now your remote has been created and now you can push your files in the github.
+for checking the list of remote :-
+```git remote``` ---> this will enlist all the remote created*
+
+### **How it works:-**
+
+*If you have created a file of extention say, .txt then GIT focuses or look for the changes you have made in the file. Then, it adds up the changes and reconstruct the file. It’s somewhat like human memory. It reconstructs the memory by aggregating a series of events. In Git, each of these events are called **commits**.
+
+*But before commit, we have to create and then add the files.*
+
+##### **CREATING FILE!**
+
+*For creating file, you have command to create a file, i.e. **touch command**. You have to use this as follows:-
+```touch file.txt``` ----> This will create a text file and not only text, you can create and multiple files of different extentions. 
+
+##### **ADDING FILE!**
+
+*Now for adding a file, we have **git add** command, as this will keep the files in staging mode (staging mode is the mode where you dont save the changes but add them so that u may save them later). The code is used as follows:-
+```git add file.txt``` ----> Now the file.txt is added successfully!.
+
+*You may add multiple files at once using ``` git add .``` command, it will add all the files at once.*
+
+##### **COMMITING THE FILE!**
+
+*Now for commit, Everything is a collection of commits. However, just saving a file won’t automatically turn it into a commit.
+You need to tell git that this change (or a set of changes) is a commit. You do this by running the command called commit. Then you add a message next to it:-* 
+
+``` git commit -a``` ----> This command means that you want to all the files which you add
+
+```git commit -m "i am commiting the change"``` ----> This means you want to commit while passing a message
+
+```git commit -am"i am commiting the change"``` ----> This means you want to commit all the changes with a message.
+
+##### **PUSHING YOU FILES TO GITHUB**
+
+*The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching imports commits to local branches, pushing exports commits to remote branches.*
+
+*We use the following commands :-
+```git push (name_of_remote) master``` ---> This means, the files which has been commited will be pushed to github via remote in the **branch - master**.
+
+##### **BRANCHES IN GIT/GITHUB**
+
+*A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is **master**. As you initially make commits, you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.*
+
+*To create Branches, we use the following commands:-*
+
+* *```git branch (name_of_new_branch)``` ---> creates new branch*
+* *```git checkout (name_of_new_branch)``` ---> moves you from master to the other branch*
+* *```git checkout -b (name_of_new_branch)``` ---> this will let you create a new branch also switch you to the respective branch.*
+
+*If you want to check the list of the branches, you can use ```git branch``` command as it will enlist you the branches you have created as of now.
+
+#### **MERGING BRANCHES**
+
+First we run ```git checkout master``` to change the active branch back to master. Then we run the command ```git merge new-branch``` to merge the new feature into the **master branch**. 
+**Note that git merge merges the specified branch into the currently active branch. So we need to be on the branch that we are merging into.**
+
+#### **FORKING**
+
+*A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project. A forked repository differs from a clone in that a connection exists between your fork and the original repository itself. In this way, your fork acts as a bridge between the original repository and your personal copy where you can contribute back to the original project using Pull Requests.*
+
+*Steps for forking a repository:-
+> Go to repository, that you want to fork. 
+> On top right corner you will se a button **'Fork'**, click that button.
+> It will tell you to wait for seconds and thus forking repository will happen.*
+
+#### **CLONING**
+
+*Git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols. The git clone command copies an existing Git repository.*
+
+*Steps for cloning:-
+> Go the the repo who you want to clone the repo(repository)
+> Copy the URL of the repo.
+> Open up the GITBASH, and use the command:-
+```git clone (paste the url copied)``` 
+>GIT will process and create the clone of the repo to your local system.
+
+#### **PR : PULL REQUEST**
+
+*Pull Request allows others to know about the changes one has pushed in the github repository.
+A Pull Request is submitted when you’ve worked on some code from a particular branch and want to inform the others of the changes you have made. So after forking a project we can pull request.*
+
+**Steps for creating PR:-**
+
+* After forking and cloning the project or file to your local system, open your Git.
+
+* Make the changes you want to in the cloned file uing git commands.
+
+* After modifying, add, commit and push it on github.
+
+* Enter your username and password to the prompt window.
+
+* On github, Click on **```"Compare and Pull Request button"```**.
+
+* Click on **```Create pull request```** to open a new pull request. Enter the title and desctription of the pull request and send the request.
+
+## **MERGE CONFLICTS:-**
+
+### *CREATING MERGE CONFLICTS:-*
 
 
-**Commit :**
 
-*Commit is generally used to **save** the changes or edits in the local repository. Commit also generates a ```unique hash (ID)``` to the file as soon as you perform a change.*
 
-**push/pull :**
 
-*pushing is to send the file from your local system to local repository
-pulling is to recieve the file.*
 
-**Clone :**
 
-*When you make a copy of remote repo in your local repo in the GIT is called cloning repository.*
 
-*We perform cloning using ``` git clone```*
-
-**Fork :**
-
-*When you make a copy of remote repo in your local repo in the GITHUB is called forking repository.*
-
-**Branch :**
-
-*Branch is basically a part or version of repo. a single repo can have multiple branches and multiple branches can be merged into one as well.by defeault : Master branch.e.g. if we are working on project under master branch and suddenly we create another branch names X and continue the project, we can go back to that instance where we created branch Xi.e. working on branch will not affect other branches thus helping in creating and accessing the different versions of the projects.*
-
-*We can create branch by both ways:-*
-
-1. Using GITHUB, creating new branch and files under it, thus commiting new changes and later merging it with the other branch if you want.
-2. Using ```git checkout -b name_of_branch```
-
-**PR :**
-
-*PR: **PULL REQUEST**, It let you tell others about changes you've pushed to a branch in a repository on GitHub. You can accept the PR if you want to implement the changes suggested.*
-
-**Merge Conflict**
-
-*Conflicts generally arise when two people have changed the same lines in a file, or if one developer deleted a file while another developer was modifying it. In these cases, Git cannot automatically determine what is correct. Conflicts only affect the developer conducting the merge, the rest of the team is unaware of the conflict.*
 
