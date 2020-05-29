@@ -28,26 +28,26 @@ GitHub uses tools to identify and analyze vulnerabilities to the code, that othe
 
 **Step 4**
 [statement followed by $ will be considerd as a command to be written in terminal]
-#->$ mkdir NAME
-#->$ cd NAME
-#->$ echo "#NAME" >> Readme.md
-#->This will create a directory at local with name "NAME", whcih will have a text file "Readme.md"
-#->$ cat Reamde.md
-#->This will show the contents of the file
-#->To tell your computer that Demo is a directory managed by the Git program, enter:
-#->$ git init
-#->Then, to tell the Git program you care about this file and want to track any changes from this point forward,
-#->$ git add Readme.md
+# ->$ mkdir NAME
+# ->$ cd NAME
+# ->$ echo "#NAME" >> Readme.md
+# ->This will create a directory at local with name "NAME", whcih will have a text file "Readme.md"
+# ->$ cat Reamde.md
+# ->This will show the contents of the file
+# ->To tell your computer that Demo is a directory managed by the Git program, enter:
+# ->$ git init
+# ->Then, to tell the Git program you care about this file and want to track any changes from this point forward,
+# ->$ git add Readme.md
 
 **Step 5**
 -->Making a commit
 ->So far you've created a file and told Git about it, and now it's time to create a commit. Commit can be thought of as a milestone. Every time you accomplish some work, you can write a Git commit to store that version of your file, so you can go back later and see what it looked like at that point in time. Whenever you make a change to your file, you create a new version of that file, different from the previous one.
-#->$ git commit -m "This is a demo commit"
+# ->$ git commit -m "This is a demo commit"
 ->You just created a Git commit and included a message that says first commit. 
 
 **Step 6**
 --> Connect your GitHub repo with your computer
-#->$ git remote add origin https://github.com/<your_username>/NAME.git
+# ->$ git remote add origin https://github.com/<your_username>/NAME.git
 -> Now we have connected our local copy of the NAME repository to its remote counterpart on GitHub.com
 ->Now that we have added the remote, we can push our code (i.e., upload our README.md file) to GitHub.com
 
@@ -66,8 +66,8 @@ A fork is a copy of a repository that allows you to freely experiment with chang
 
 ## Cloning
 Cloning a GitHub repository creates a local copy of the remote repo. This allows you to make all of your edits locally rather than directly in the source files of the origin repo.
-#-> $ git clone https://github.com/deepak2431/gitseries
-#-> $ cd gitseries
+# -> $ git clone https://github.com/deepak2431/gitseries
+# -> $ cd gitseries
 -> This will clone the repo on local
 
 ## What is PR
@@ -81,8 +81,8 @@ in layman's term we can say that git branches are individual projects within a g
 
 #How to make a branch
 ->Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.
-#->$ git pull
-#->$ git checkout -b <BRANCH NAME>
+# ->$ git pull
+# ->$ git checkout -b <BRANCH NAME>
 -> This will create the branch
 -> $ git push origin <BRANCH NAME>
 -> This will push the branch in your repo,
@@ -97,28 +97,28 @@ There are two types of merge conflict
 🔴 During Merge-->A failure DURING a merge indicates a conflict between the current local branch and the branch being merged. This indicates a conflict with another developers code. Git will do its best to merge the files but will leave things for you to resolve manually in the conflicted files. 
 
 # How to intensionaly create a Merge conflict!!
-#->$  mkdir git-merge-test
-#->$ cd git-merge-test
-#->$ git init .
-#->$ echo "Content" > merge.txt
-#->$ git add merge.txt
-#->$ git commit -am"we are commiting the inital content"
+# ->$  mkdir git-merge-test
+# ->$ cd git-merge-test
+# ->$ git init .
+# ->$ echo "Content" > merge.txt
+# ->$ git add merge.txt
+# ->$ git commit -am"we are commiting the inital content"
 
 ->Now we have a new repo with one branch master and a file merge.txt with content in it. Next, we will create a new branch to use as the conflicting merge.
 
-#->$ git checkout -b new_branch_to_merge_later
-#->$ echo "totally different content to merge later" > merge.txt
-#->$ git commit -am"edited the content of merge.txt to cause a conflict"
+# ->$ git checkout -b new_branch_to_merge_later
+# ->$ echo "totally different content to merge later" > merge.txt
+# ->$ git commit -am"edited the content of merge.txt to cause a conflict"
 
 -->With this new branch: new_branch_to_merge_later we have created a commit that overrides the content of merge.txt
-#->$git checkout master
-#->$Switched to branch 'master'
-#->$echo "content to append" >> merge.txt
-#->$git commit -am"appended content to merge.txt"
+# ->$git checkout master
+# ->$Switched to branch 'master'
+# ->$echo "content to append" >> merge.txt
+# ->$git commit -am"appended content to merge.txt"
 
 -->This chain of commands checks out the master branch, appends content to merge.txt, and commits it. This now puts our example repo in a state where we have 2 new commits. One in the master branch and one in the new_branch_to_merge_later branch. At this time lets git merge new_branch_to_merge_later.
 
-#->$ git merge new_branch_to_
+# ->$ git merge new_branch_to_
 
 -->This will create a merge conflict
 
