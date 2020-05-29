@@ -5,13 +5,12 @@ GitHub is a web-based hosting service for software development projects that use
  ### How github works?
 <br>
 An Intro to github: <br>
-- Step1:Install git and create a GitHub account.(Accounts are free for public repositories,but there's a charge for private repositories.
-- Step2:Create a local git repository.
-- Step3: Add new file to repo using ny text editor.
-- Step4:After creating newe file into repo,you can use _git status_ command to see which files git knows exist.<br>
-- Step5 : Add a file to the staging environment using _git add_ command.
-<br>
-* Step6*:Create a commit.
+* Step1:Install git and create a GitHub account.(Accounts are free for public repositories,but there's a charge for private repositories.
+* Step2:Create a local git repository.
+* Step3: Add new file to repo using ny text editor.
+* Step4:After creating newe file into repo,you can use **git status** command to see which files git knows exist.<br>
+* Step5 : Add a file to the staging environment using **git add** command.
+* Step6:Create a commit.
 <br><br>
 
 ### Clonning:
