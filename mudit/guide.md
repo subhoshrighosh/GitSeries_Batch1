@@ -34,7 +34,7 @@ The files will be stored in local and remote repo so that we can access our proj
 * *```clear``` ---> clear the screen*
 * *```cat file.txt``` ---> it shows the content present in the file.
 
-#### **OPENING FIRST REPOSITORY/REPO :-**
+### **OPENING FIRST REPOSITORY/REPO :-**
 
 1. Create a Github account, by using you e-mail account and signup
 
@@ -51,7 +51,7 @@ whcih will have a text file "Readme.md" ->$ cat Reamde.md ->This will show the c
 
 **You can add more remote other than origin that which will be the topic of our discussion** 
 
-#### **CREATING REMOTE:-**
+### **CREATING REMOTE:-**
 
 *A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server. In contrast to a local repository, a remote typically does not provide a file tree of the project's current state. A universal name for remote is given as **origin**, but we can name it anything according to our needs.*
 
@@ -68,19 +68,19 @@ for checking the list of remote :-
 
 *But before commit, we have to create and then add the files.*
 
-##### **CREATING FILE!**
+### **CREATING FILE!**
 
 *For creating file, you have command to create a file, i.e. **touch command**. You have to use this as follows:-
 ```touch file.txt``` ----> This will create a text file and not only text, you can create and multiple files of different extentions. 
 
-##### **ADDING FILE!**
+### **ADDING FILE!**
 
 *Now for adding a file, we have **git add** command, as this will keep the files in staging mode (staging mode is the mode where you dont save the changes but add them so that u may save them later). The code is used as follows:-
 ```git add file.txt``` ----> Now the file.txt is added successfully!.
 
 *You may add multiple files at once using ``` git add .``` command, it will add all the files at once.*
 
-##### **COMMITING THE FILE!**
+### **COMMITING THE FILE!**
 
 *Now for commit, Everything is a collection of commits. However, just saving a file won’t automatically turn it into a commit.
 You need to tell git that this change (or a set of changes) is a commit. You do this by running the command called commit. Then you add a message next to it:-* 
@@ -91,14 +91,14 @@ You need to tell git that this change (or a set of changes) is a commit. You do 
 
 ```git commit -am"i am commiting the change"``` ----> This means you want to commit all the changes with a message.
 
-##### **PUSHING YOU FILES TO GITHUB**
+### **PUSHING YOUR FILES TO GITHUB**
 
 *The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching imports commits to local branches, pushing exports commits to remote branches.*
 
 *We use the following commands :-
 ```git push (name_of_remote) master``` ---> This means, the files which has been commited will be pushed to github via remote in the **branch - master**.
 
-##### **BRANCHES IN GIT/GITHUB**
+### **BRANCHES IN GIT/GITHUB**
 
 *A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is **master**. As you initially make commits, you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.*
 
@@ -110,12 +110,12 @@ You need to tell git that this change (or a set of changes) is a commit. You do 
 
 *If you want to check the list of the branches, you can use ```git branch``` command as it will enlist you the branches you have created as of now.
 
-#### **MERGING BRANCHES**
+### **MERGING BRANCHES**
 
 First we run ```git checkout master``` to change the active branch back to master. Then we run the command ```git merge new-branch``` to merge the new feature into the **master branch**. 
 **Note that git merge merges the specified branch into the currently active branch. So we need to be on the branch that we are merging into.**
 
-#### **FORKING**
+### **FORKING**
 
 *A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project. A forked repository differs from a clone in that a connection exists between your fork and the original repository itself. In this way, your fork acts as a bridge between the original repository and your personal copy where you can contribute back to the original project using Pull Requests.*
 
@@ -124,7 +124,7 @@ First we run ```git checkout master``` to change the active branch back to maste
 > On top right corner you will se a button **'Fork'**, click that button.
 > It will tell you to wait for seconds and thus forking repository will happen.*
 
-#### **CLONING**
+### **CLONING**
 
 *Git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols. The git clone command copies an existing Git repository.*
 
@@ -135,7 +135,7 @@ First we run ```git checkout master``` to change the active branch back to maste
 ```git clone (paste the url copied)``` 
 >GIT will process and create the clone of the repo to your local system.
 
-#### **PR : PULL REQUEST**
+### **PR : PULL REQUEST**
 
 *Pull Request allows others to know about the changes one has pushed in the github repository.
 A Pull Request is submitted when you’ve worked on some code from a particular branch and want to inform the others of the changes you have made. So after forking a project we can pull request.*
@@ -154,7 +154,7 @@ A Pull Request is submitted when you’ve worked on some code from a particular 
 
 * Click on **```Create pull request```** to open a new pull request. Enter the title and desctription of the pull request and send the request.
 
-## **MERGE CONFLICTS:-**
+# **MERGE CONFLICTS:-**
 
 *When we merge the branches, if in the file, more than one person has commited change in the perticular line of the file with different set of data and send pr (pull request) to the remote repo, this act will creates a **merge conflict**.   
 
