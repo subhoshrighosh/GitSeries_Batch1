@@ -2,7 +2,7 @@
 
 **GIT :**
 
-*Git is a ```distributed control version software``` i.e. it helps us to keep the record of the history in the form of remote and local repo(repository) so that we can access the history any time without any obstruction.Version control system means that it helps in  managing a project's source code. It helps in keeping track of changes made in a source code and repositories manages all the edits or changes. It is a open source tool and you can load the repositories in your local repository or in your local system as well.
+*Git is a ```distributed control version software``` i.e. it helps us to keep the record of the history in the form of remote and local repo(repository) so that we can access the history any time without any obstruction.Version control system means that it helps in  managing a project's source code. It helps in keeping track of changes made in a source code and repositories manages all the edits or changes. It is a open source tool and you can load the repositories in your local repository or in your local system as well.*
 
 **GITHUB :**
 
@@ -17,6 +17,7 @@
 ###### NOTE: One dont need to know about both, one can eaily be oriented on GIT or GITHUB,and also one can work using both GIT and GITHUB too.
 
 *Git has a work-flow, i.e. **```add-->commit-->push-->pull```***
+
 1. Creating branch(by default master) and then creating the files and working on it.
 2. adding the file(s) and commiting the file(s).
 3. Merge your other branch if you have created any with master if your newly created branch worked perfectly or else modify.
@@ -28,11 +29,11 @@ The files will be stored in local and remote repo so that we can access our proj
 * *```git config``` --->  Short for “configure,” this is most useful when you’re setting up Git for the first time.*
 * *```git init``` ---> Initializes a new Git repository. Until you run this command inside a repository or directory, it’s just a regular folder. Only after you input this does it accept further Git commands.*
 * *```cd (name of directory)``` ---> it will take you to that directory.*
-* *```cd ..``` ---> it will take you out of that directory. *
+* *```cd ..``` ---> it will take you out of that directory.*
 * *```mkdir (name of directory)``` ---> it will create a directory of the name you mentioned.*
 * *```git status``` ---> Check the status of your repository. See which files are inside it, which changes still need to be committed, and  which branch of the repository you’re currently working on.*
 * *```clear``` ---> clear the screen*
-* *```cat file.txt``` ---> it shows the content present in the file.
+* *```cat file.txt``` ---> it shows the content present in the file.*
 
 ### **OPENING FIRST REPOSITORY/REPO :-**
 
