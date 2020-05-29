@@ -174,9 +174,10 @@ A Pull Request is submitted when you’ve worked on some code from a particular 
 
 ### *RESOLVING MERGE CONFLICTS:-*
 
+*Steps taken to resolve a **merge conflict** :-*
+
 ![resolved](https://user-images.githubusercontent.com/54271833/82999650-f4885c00-a026-11ea-83fe-d30ca3561495.jpg)
 
-*Steps taken to resolve a **merge conflict** :-*
 
 *Once Conflict is popped up, now its essential for you to work on resolving the issue or conflict.
 You can use ```git status``` command to have brief information about the conflict and your file.*
@@ -190,6 +191,7 @@ You can use ```git status``` command to have brief information about the conflic
 
 
 > **HOPE THIS DATA WILL HELP YOU UNDERSTAND ABOUT GIT/GITHUB**
+
 > **THANKYOU!**
   
 
