@@ -1,0 +1,29 @@
+#How github works, cloning, forking, making PR’s, opening issues?
+##GitHub:
+_GitHub is a best platform to explore new things. GitHub is a best way to connect with the peopl across world and learn new things from them._
+##Step1:
+** GitHub Forking:**
+* after creating own github account we can take someone else data through forking.
+* Forking is the best way to extract others data and start working on it.
+##Step2:
+** GitHub Cloning:**
+* Once we fork someone's data next step is of cloning. It simply means download the zip file and extract into our desktop.
+* After cloning we can create our own directory and add files into it to make it more attractful.
+* We can add some data into it.
+##Step3:
+* After adding our own content next step is to send Personal Request.
+*PR can be seen as informing others about the changes that we have made in a project or in a branch when we pull request that means we
+are requesting others to view the cahnges that we have made and merge it with the master branch.
+##Step 4:
+** Opening Issues **
+* Issues can be used to keep track of bugs, enhancements, or other requests. 
+*Any GitHub Enterprise user can create an issue in a public repository where issues have not been disabled. 
+*You can open a new issue based on code from an existing pull request.
+##Steps to create an issue
+*On GitHub Enterprise, navigate to the main page of the repository.
+*Under your repository name, click  Issues.
+*Click New issue
+*If there are multiple issue types, click Get started next to the type of issue you'd like to open.
+*ype a title and description for your issue.
+*When you're finished, click Submit new issue.
+ 
