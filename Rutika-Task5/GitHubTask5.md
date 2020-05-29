@@ -8,9 +8,12 @@ An Intro to github: <br>
 step1: Install git and create a GitHub account.(Accounts are free for public repositories,but there's a charge for private repositories.)
 <br>
 step2: Create a local git repository.<br>
-**step3**: Add new file to repo using ny text editor.<br>
-**step4**: After creating newe file into repo,you can use **git status** command to see which files git knows exist.<br>
-**step5** : Add a file to the staging environment using **git add ** command.
+step3: Add new file to repo using ny text editor.<br>
+**step4**
+: After creating newe file into repo,you can use **git status** command to see which files git knows exist.<br>
+**step5** 
+: 
+Add a file to the staging environment using **git add ** command.
 <br>
 **step6**:
 Create a commit.
