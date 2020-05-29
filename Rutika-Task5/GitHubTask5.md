@@ -5,7 +5,7 @@ GitHub is a web-based hosting service for software development projects that use
  ### How github works?
 <br>
 An Intro to github: <br>
-* Step1:Install git and create a GitHub account.(Accounts are free for public repositories,but there's a charge for private repositories.)
+**Step1:** Install git and create a GitHub account.(Accounts are free for public repositories,but there's a charge for private repositories.)
 <br>
 * Step2:Create a local git repository.<br>
 * Step3: Add new file to repo using ny text editor.<br>
