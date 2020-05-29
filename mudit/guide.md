@@ -34,20 +34,20 @@ The files will be stored in local and remote repo so that we can access our proj
 * *```clear``` ---> clear the screen*
 * *```cat file.txt``` ---> it shows the content present in the file.
 
-#### **OPENING FIRST REPOSITORY/REPO :-
+#### **OPENING FIRST REPOSITORY/REPO :-**
 
-> 1. Create a Github account, by using you e-mail account and signup
+1. Create a Github account, by using you e-mail account and signup
 
-> 2. Create a new repository -> To create a new repository, select New Repository from the + sign dropdown menu -> Enter a name for your repository
+2. Create a new repository -> To create a new repository, select New Repository from the + sign dropdown menu -> Enter a name for your repository
 
-> 3. download and install git from offical website if not already installed ->run gitbash.exe ->It will open a terminal in windows\mac\linux
+3. download and install git from offical website if not already installed ->run gitbash.exe ->It will open a terminal in windows\mac\linux
 
-> 4. ```$ mkdir NAME ->$ cd NAME ->$ echo "#NAME" >> Readme.md``` --->This will create a directory at local with name "NAME", 
+4. ```$ mkdir NAME ->$ cd NAME ->$ echo "#NAME" >> Readme.md``` --->This will create a directory at local with name "NAME", 
 whcih will have a text file "Readme.md" ->$ cat Reamde.md ->This will show the contents of the file ->To tell your computer that Demo is a directory managed by the Git program, enter: ->$ git init ->Then, to tell the Git program you care about this file and want to track any changes from this point forward, ->$ git add Readme.md
 
-> 5. Making a commit ->So far you've created a file and told Git about it, and now it's time to create a commit. Commit can be thought of as a milestone. Every time you accomplish some work, you can write a Git commit to store that version of your file, so you can go back later and see what it looked like at that point in time. Whenever you make a change to your file, you create a new version of that file, different from the previous one. ```git commit -m "commit"``` --->You just created a Git commit and included a message that says first commit.
+5. Making a commit ->So far you've created a file and told Git about it, and now it's time to create a commit. Commit can be thought of as a milestone. Every time you accomplish some work, you can write a Git commit to store that version of your file, so you can go back later and see what it looked like at that point in time. Whenever you make a change to your file, you create a new version of that file, different from the previous one. ```git commit -m "commit"``` --->You just created a Git commit and included a message that says first commit.
 
-> 6. Connect your GitHub repo with your computer **git remote add origin https://github.com/<your_username>/NAME.git** ---> Now we have connected our local copy of the NAME repository to its remote counterpart on GitHub. Now that we have added the remote, we can push our code to GitHub. 
+6. Connect your GitHub repo with your computer **git remote add origin (remote_url)** ---> Now we have connected our local copy of the NAME repository to its remote counterpart on GitHub. Now that we have added the remote, we can push our code to GitHub. 
 
 **You can add more remote other than origin that which will be the topic of our discussion** 
 
