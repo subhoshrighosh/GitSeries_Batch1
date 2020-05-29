@@ -5,15 +5,22 @@ _GitHub is a best platform to explore new things. GitHub is a best way to connec
 ** GitHub Forking:**
 * after creating own github account we can take someone else data through forking.
 * Forking is the best way to extract others data and start working on it.
+##Steps to Fork other's data:
+* Fork this repo owned by Earth Lab into your GitHub account.
 ##Step2:
 ** GitHub Cloning:**
 * Once we fork someone's data next step is of cloning. It simply means download the zip file and extract into our desktop.
 * After cloning we can create our own directory and add files into it to make it more attractful.
-* We can add some data into it.
+##How to clone
+* Write git clone https://gitseries.com
+*Clone the fork of your repo, so you can edit the contents locally
+* Make edits to your local cloned copy of the repo on your computer
+*add, commit and push those edits back to your fork on GitHub
 ##Step3:
 * After adding our own content next step is to send Personal Request.
 *PR can be seen as informing others about the changes that we have made in a project or in a branch when we pull request that means we
 are requesting others to view the cahnges that we have made and merge it with the master branch.
+*Suggest the changes that you made, to be added to the Earth Lab central repo using a pull request.
 ##Step 4:
 ** Opening Issues **
 * Issues can be used to keep track of bugs, enhancements, or other requests. 
