@@ -1,8 +1,8 @@
-* **##what is GitHub?** <br>
+ ##**what is GitHub?** <br>
 GitHub is a code hosting platform for version control and collaboration.
 GitHub is a web-based hosting service for software development projects that use the Git revision control system.<br>
 <br>
-* **##How github works?**
+ ##**How github works?**
 <br>
 An Intro to github: <br>
 **step1**: Install git and create a GitHub account.(Accounts are free for public repositories,but there's a charge for private repositories.)
