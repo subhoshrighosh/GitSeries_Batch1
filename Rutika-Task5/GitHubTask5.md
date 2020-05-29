@@ -28,7 +28,8 @@ Create a commit.
 1. Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.
 1. Type a title and description for your pull request.
 1. To create a pull request that is ready for review, click Create Pull Request.<br><br>
-##Opening Issues: Issues can be used to keep track of bugs, enhancements, or other requests.
+## Opening Issues:
+Issues can be used to keep track of bugs, enhancements, or other requests.
 You can open a new issue directly from a comment in an issue or a pull request review. For more information
 <br>
 * On GitHub, navigate to the main page of the repository.
