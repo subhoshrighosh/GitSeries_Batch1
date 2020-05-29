@@ -1,4 +1,4 @@
-## Step by step guide towards github
+# Step by step guide towards github
 
 ## What is Github!!
 GitHub is a highly used software which is typically used for version control. It is helpful when more than just one person is working on a project. Say for example, a software developer team wants to build a website and everyone has to update their codes simultaneously while working on the project. In this case, Github helps them to build a centralized repository where everyone can upload, edit and manage the code files. Github has many advantages over other cloub based sites like dropbox. Github document the changes and reflect them in an organized manner to avoid any chaos between any of the files uploaded.
@@ -28,7 +28,7 @@ GitHub uses tools to identify and analyze vulnerabilities to the code, that othe
 
 **Step 4**
 [statement followed by $ will be considerd as a command to be written in terminal]
-# ->$ mkdir NAME
+### ->$ mkdir NAME
 # ->$ cd NAME
 # ->$ echo "#NAME" >> Readme.md
 # ->This will create a directory at local with name "NAME", whcih will have a text file "Readme.md"
