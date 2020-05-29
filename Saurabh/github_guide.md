@@ -1,10 +1,24 @@
 # ***Git and Github Basics***
 
 ## ***Git***
-**Git** is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.                                                                       Git is created by *LINUS  TORVALDS*. It is an open-source, free, and *distributed version control system*. Git has trunk-based development in it which involves branches in the repository in which we can create a new branch even while working with the current branch and also we can merge the new branch with the master branch if required at any point.
+**Git** is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+Git is created by *LINUS  TORVALDS*. It is an open-source, free, and *distributed version control system*. Git has trunk-based development in it which involves branches in the repository in which we can create a new branch even while working with the current branch and also we can merge the new branch with the master branch if required at any point.
 
 ## ***Github***
 **Github** is a website in which we can upload projects that have version control over them. GitHub is a file or code-sharing service to collaborate with different people. GitHub, which is delivered through a software-as-a-service (SaaS) business model, was started in **2008** and was founded on Git, an open source code management system created by ***Linus Torvalds*** to make software builds faster.
+**Other Platforms similar to Github are:**
+*a. GitLab
+ b. BitBucket
+ c. Source Forge
+ d. AWS Code Commit*
+ 
+**GitHub is popular as:**
+*• Largest shared repository
+ • Separate public and private repositories
+ • Shared Repositories which can be accessed by millions of users and make contributions to existing files or codes
+ • Easy Version Control
+ • Can be accessed anytime and anywhere*
+
 
 ## ***Github Workflow***
 There is one central repository. Each developer clones the repository, works locally on the code, makes a commit with changes, and push it to the central repository for other developers to pull and use in their work.
@@ -30,8 +44,25 @@ When we clone a repository, the repository is copied to our local machine with t
 ## ***Branches***
 Using *branches* we can seperate our work from the main file. There is a default branch called **master branch**. To avoid mess up in the master branch we create local branches.
 
+***Switch Branch***
+We can switch from one branch to the other branch by using a command. The command is listed below:
+git checkout <Branch_Name>
+
+***Deleting Branch***
+We can delete branch by using the following commands:
+git branch -d <branch_name>
+
+*Note:*We cannot delete a master branch because it get activated by default when we use the command "git init".
+
 ## ***Pull Request***
-PR stands for Pull Request. This request is used to ask the person to merge our changes in his repository .We use this command after forking and clonning somone else project. 
+PR stands for Pull Request. This request is used to ask the person to merge our changes in his repository .We use this command after forking and clonning somone else project. When you file a pull request, all you’re doing is requesting that another developer pulls a branch from your repository into their repository. This means that you need to provide four pieces of information to file a pull request: the source repository, the source branch, the destination repository, and the destination branch.
+**Making a pull request**
+*1. Fork the repository of a person on which you wants to work.
+2. Clone that repository.
+3. Make the changes as per your requirement.
+4. Add and commit the files.
+5. Then perform the pull command.
+6. Finally we can make a pull request to the owner from the github.*
 
 ## ***Commit***
 The ***"commit"*** command is used to save your changes to the local repository. Note that you have to explicitly tell Git which changes you want to include in a commit before running the *"git commit"* command. This means that a file won't be automatically included in the next commit just because it was changed. 
@@ -39,6 +70,11 @@ The ***"commit"*** command is used to save your changes to the local repository.
 ## ***Merge Conflict***
 *Conflicts* occurs when two person changes the same lines in a file, or one person deletes a file and another person modify it. Git is unable to  automatically determine the correct one.
 
+**Resolving Conflict**
+ *1. We can see the file and the conflicts in it using the command "cat <file name>"
+  2. We can go the file in the folder on local machine and can edit as per the requirements.
+  3. Finally,we need to add and commit the file.*
+  
 ## ***Issues***
 *Issues* can be used to keep track of *bugs, enhancements, or other requests*.You can collect user feedback, report software bugs, and organize tasks you'd like to accomplish with issues in a repository. Issues can act as more than just a place to report software bugs.
 
