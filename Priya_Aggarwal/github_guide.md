@@ -1,6 +1,6 @@
-# Complete guide about git and GitHub.
+# Complete guide about git and GitHub.📔
 ------------------------------------------------------------------------------
-# 1. What exactly do u mean by Git and Github?
+*1. What exactly do u mean by Git and Github?*
 Ans. Git is a popular control system which is installed and it maintains all your 
 local system and gives you a self-contained record if your ongoing programming 
 versions. Git is easy to learn and has a tiny footprint with lightning-fast 
