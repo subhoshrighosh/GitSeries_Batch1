@@ -1,4 +1,4 @@
-# complete Guide to git and github! 📔
+# Basic guide to git and github! 📔
 **1.What are git and github ?**
 
 **Git**- Git is a type of version control system that makes it easier to track changes to files or in the source code. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. It is a program installed in a system. 
