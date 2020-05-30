@@ -1,7 +1,7 @@
 # Complete guide about git and GitHub.📔
 ------------------------------------------------------------------------------
 **1. What exactly do u mean by Git and Github?**
-Ans. Git is a popular control system which is installed and it maintains all your 
+ Git is a popular control system which is installed and it maintains all your 
 local system and gives you a self-contained record if your ongoing programming 
 versions. Git is easy to learn and has a tiny footprint with lightning-fast 
 performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase 
@@ -19,7 +19,6 @@ in Ruby. Github has a total of 40 million users by Aug 2019. Founder of GitHub i
 Tom Preston-Werner, P.J Hyett, Chris Wanstranth, Scott Chacon.
 
 **2. Why Github is so popular in most of the projects?**
-Ans. 
 The Largest shared repository- Pushing the project to a shared, public repository
 makes it instantly discoverable for those 28M users.
 Easy Version Control- It tracks all the changes made to your code and who makes them.
@@ -81,12 +80,14 @@ Now you are connected to the location of the project.
 After cloning is done we will make our project and store it in a folder.
 Now you have to make a PR. PR stands for the pull request. To understand PR first we have to
 understand the concept of branching.
+
 **Branching**
 When we create a repository, then the main linear list of 
 commits is on the master branch. We can makes changes in master as well 
 as in a new branch. All the branches are independent of each other. 
 After editing we can commit the changes in the branch directly or create 
 a new branch. 
+
 **Steps to create a branch**
 1. git remote (This will give you the remote location ie origin)
 2. git remote add upstream url_copied (This will add a new remote location name upstream)
@@ -96,10 +97,12 @@ a new branch.
 6. git checkout -b branch_name (This command helps you to create a new branch)
 After the branch s made you will again add and commit changes you have made.
 Once the branch is made we will push our work into the repository and then request for a PR
+
 **This can be done in three simple steps:-**
 1. git push origin master
 2. git checkout branch_name (This will et you to the branch you have created above)
 3. git push origin branch_name (You have finally pushed your branch and project)
+
 If you want to contribute in the existing repository then fork that repository first and 
 do some changes in the repository's any section even if you change documentation of 
 that repository's code and you think it should be in the master repository of the main repository 
@@ -108,6 +111,7 @@ repository.
 It lets others know about the changes we have pushed to a branch in 
 a repository of GitHub. Once the pull request is open we can discuss 
 and review it before the changes are merged into the main brach. 
+
 **Steps for pull request:-**
 1. Go to the main page of your repository
 2. Choose the branch you have made successfully
@@ -132,13 +136,17 @@ doesn’t know which code to keep and which to discard. For eg if there are
 conflicting changes on the same line or some file is deleted on one branch 
 but not on another. Merge conflict can only be resolved by the developer. 
 These conflict usually happens when working in a team environment. 
+
 **The command for the merge is**
+
 **"git merge branch_name"**
+
 a. Git fails to start the merge when there are changes in the working directory 
 or staging area of the current project.
 b. Git fails during merge - conflict in the current local branch and branch being
 merged. 
 I hope this guide will direct you easily and you can have a look at my GitHub
+
 **I am sharing the link below:-
 https://github.com/priya8936**
 
