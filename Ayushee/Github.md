@@ -1,9 +1,9 @@
-1.How github works?
+##1.How github works?
 	GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 Working of github is very simple at first developers start it by cloning the central repository. In their own local copies of the project, they edit files and commit changes as they would with SVN; however, these new commits are stored locally - they’re completely isolated from the central repository. This lets developers defer synchronizing upstream until they’re at a convenient break point.
 To publish changes to the official project, developers "push" their local master branch to the central repository. This is the equivalent of svn commit, except that it adds all of the local commits that aren’t already in the central master branch.
 
-2.What is cloning and forking?
+##2.What is cloning and forking?
 	 Clone a repository or cloning a repository is downloading a copy of the source code from source control.fork a repository or forking a repository means  we create a copy of the original repository (upstream repository) but the repository remains on our GitHub account.
 GitHub won't let you push code to repositories that you don't own or have sufficient permission to, you need to make a copy of the repository by forking it, and then you can make all your changes to that repository.
 Once you have all the changes you want in your repository you can create a inaudible request to the project, and the maintainer can merge your changes into the main project. To do this we'll click on the fork button, and this will open up a dialog where we can click on our user to fork the repository to our users' repositories.
@@ -17,7 +17,7 @@ It has a branch called master, and that is being pointed to upstream/master. Rig
 To do this, we'll run the command git branch --set-upstream-to=upstream/master master. Now our branch, called master, is tracking the upstream master. When there are updates we like to get from the upstream repository we can get them by simply pulling on that branch.
 We're now ready to set up our environment and the project for making our change.
 
-3.How to make PR's?
+##3.How to make PR's?
 	Find a project you want to contribute to.
 1. Fork it.
 2. Clone it to your local system.
@@ -27,5 +27,5 @@ We're now ready to set up our environment and the project for making our change.
 6. Click the Compare & pull request button.
 7. Click Create pull request to open a new pull request.	
 
-4.Opening issues=>The first step when contributing to a project is to visit the project site and find an issue you would like to work on and which you think is suitable for your skill set.
+##4.Opening issues=>The first step when contributing to a project is to visit the project site and find an issue you would like to work on and which you think is suitable for your skill set.
 		  From the project homepage on GitHub you can click the Issues tab to navigate to a list of the open issues.
