@@ -1,4 +1,4 @@
-## Complete guide about git and GitHub.
+# Complete guide about git and GitHub.
 ------------------------------------------------------------------------------
 # 1. What exactly do u mean by Git and Github?
 Ans. Git is a popular control system which is installed and it maintains all your 
