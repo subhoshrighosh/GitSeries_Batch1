@@ -1,2 +1,2 @@
-# GitSeries Completed Successfully
-## Thankyou Codewayy
+# GitSeries 
+
