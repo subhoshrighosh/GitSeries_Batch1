@@ -47,9 +47,7 @@ step5.Change the current working directory to the location where you want the cl
 
 step6.Type git clone, and then paste the URL you copied earlier.
 
-step7.Ex-$ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
-
-step8.Press Enter. Your local clone will be created.
+step7.Press Enter. Your local clone will be created.
 
 **Making a PR**
 PR stands for Pull Request.When you make local code changes and then submit those changes to a remote project maintainer for review before those changes are implemented, or merged.
@@ -94,7 +92,7 @@ step6.When you're finished, click Submit new issue.
 
 Usage : To set your user name and email in the main configuration file.
 
-How to : To check your name and email type in git config --global user.name and git config --global user.email. And to set your new email or name git config --global user.name = “Nanak Jaswani” and git config -- global user.email = “jaswaninanak@gmail.com”
+How to : To check your name and email type in git config --global user.name and git config --global user.email. And to set your new email or name git config --global user.name = “Ashwini Kumar” and git config -- global user.email = “ashwinikumar623@gmail.com”
 
 **2. git init**
 
@@ -102,7 +100,7 @@ Usage : To initialise a git repository for a new or existing project.
 
 How to : git init in the root of your project directory.
 
-**3. git clone : **
+**3. git clone :**
 Usage : To copy a git repository from remote source, also sets the remote to original source so that you can pull again.
 
 How to : git clone <:clone git url:>
