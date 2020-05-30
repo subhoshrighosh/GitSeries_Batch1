@@ -1,0 +1,2 @@
+### INTRODUCTION
+My name is **Shambhavi Pandey**. I am currently pursuing my btech degree in **computer science with specialization in cyber security from university of petroleum and energy studies,Dehradun.** My aim is to become a **software engineer** and also wanted to grab great opportunities in the field of *cyber security*. My hobbies are sketching,reading books and playing badminton.I love natural beauty of dehradun and really fascinated by *mountains* . My fav food is south indian Idli and Dosa . 
