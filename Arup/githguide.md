@@ -35,13 +35,15 @@ When we're working with a repository on GitHub, we might want to have it on our 
 
 Cloning a repository pulls down a full copy of all the repository data that GitHub has at that point in time, including all versions of every file and folder for the project. At any point, you can push your changes to the remote repository on GitHub, or pull other people's changes from GitHub.  
 
-For more details, please visit [cloning] (https://www.howtogeek.com/451360/how-to-clone-a-github-repository/)  
+For more details, please visit [Cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/)  
 
 
 ## 4. FORKING:  
 A fork is a copy of a repository. Forking a repository allows us to freely experiment with changes without affecting the original project.  
 Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for our own idea.  
 If the project owner likes our work, they might pull our fix into the original repository.
+
+For more details, please visit [Forking](https://www.google.com/url?sa=t&source=web&rct=j&url=https://help.github.com/en/github/getting-started-with-github/fork-a-repo&ved=2ahUKEwiEpLf20trpAhXT7XMBHSk-AXcQFjAAegQIAhAB&usg=AOvVaw24yFJz7R4zzTF_M-E0JgVF&cshid=1590809459705)  
 
 ## 5.MAKING PR'S:  
 Create a pull request to propose and collaborate on changes to a repository. These changes are proposed in a branch, which ensures that the master branch only contains finished and approved work.  
