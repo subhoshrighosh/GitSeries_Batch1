@@ -1,10 +1,10 @@
 # Introduction to Git and Github
 
 ### **Git**
-    -Git is an Open Source Distributed Version Control System. It is a command line tool. Git can be used to store content,it is mostly used to store code due to the other features it provides.Version Control System helps in handling this by maintaining a history of what changes have happened. Also, Git provides features like branches and merges.Multiple developers can work parallely with no code conflicts. It uses repositories to store the changes made in source code. 
+    -Git is an Open Source Distributed Version Control System.It is a command line tool. Git can be used to store content,it is mostly used to store code due to the other features it provides.Version Control System helps in handling this by maintaining a history of what changes have happened. Also, Git provides features like branches and merges.Multiple developers can work parallely with no code conflicts. It uses repositories to store the changes made in source code. 
 
 ### **Github**
-GitHub is a Git repository hosting service, but it adds many of its own features. GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features.GitHub makes it easy to share code between multiple computers and developers.
+	-GitHub is a Git repository hosting service, but it adds many of its own features.GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features.GitHub makes it easy to share code between multiple computers and developers.
 
 **Github is popular due to following reasons**
 1. It provides cloud storage for source code, supports all popular programming languages
@@ -24,17 +24,30 @@ GitHub is a Git repository hosting service, but it adds many of its own features
 3. Commit-the staged files are commited to local repository.
 
 ### Git Commands
+
+
 **git init** -  This command adds a local Git repository to the project.
+
 **git add .** -it adds all the files and folders in your project to the staging area.
+
 **git add *filename*** - it adds the specific file in staging area.
+
 **git commit -m "<*enter the message about commit*>"**- Records changes to the repository.
+
 **git status**-This command will give you a list of all the updated, added and deleted files.
+
 **git branch**- It will show master branch with *
+
 **git checkout** -It will how the branch we are currently working on.
-**git pull**-to pull the latest changes from the remote repository into the local repository
+
+**git pull**-to pull the latest changes from the remote repository into the local repository.
+
 **git log**- to print out all the commits which have been done up until now.  
+
 **git push**- to push all the code from the local repository into the remote repository.
+
 **git clone *url***-to clone an existing remote repository into your computer.url of remote repository.
+
 **git merge *branch name***- it wil merge currently working branch with the branch.
 
 ### Github 
